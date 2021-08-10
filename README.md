@@ -1,3 +1,3 @@
 # Basic example - GraphQL
 
-Short a basic example of GraphQL API with ASP.Net Core 5.
+Basic GraphQL API example with ASP.Net Core 5.
