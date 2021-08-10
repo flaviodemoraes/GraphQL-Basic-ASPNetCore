@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>GraphQL_Basic</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="IServices\" />
+    <None Remove="Services\" />
+    <None Remove="HotChocolate.AspNetCore" />
+    <None Remove="HotChocolate.AspNetCore.Playground" />
+    <None Remove="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="IServices\" />
+    <Folder Include="Services\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="11.3.4" />
+    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.5" />
+  </ItemGroup>
+</Project>
